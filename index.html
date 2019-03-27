@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Event tracking may be a complex technology, but making these events measurable for Marketing can often be an art. Tobias Schmidt can help you track the right events and generate the right Marketing metrics.">
+  <meta name="keywords" content="gtm, measurability, gtm hacks, powerbi, looker, tobias schmidt, google tag manager, dataLayer, adtech, martech, trivago, google analytics, ga360, tracking events, tracking">
+	<meta name="author" content="T.S.">
+
+	<title>Measurability - Tracking metrics for Marketing </title>
+
+  <!-- Web Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<!-- Animate css -->
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <!-- Responsive CSS -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <!-- embed code -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-553WWDS');</script>
+	</head>
+
+<body>
+	<!-- Preloader -->
+	<div id="tt-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-553WWDS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- Home Section -->
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+		<div class="intro">
+			<div class="intro-sub">Tobias Schmidt</div>
+			<h1>Measurability <span>Designer</span></h1>
+			<p>That doesn`t exist, right? Well, it should!<br> Event tracking may be a complex technology, but making these events measurable for Marketing can often be an art.<br> And lets face it, most Tech people are awful with art, while most artists are terrible with technology <br>So who should take care of a platform`s tracking & measurability? </p>
+
+      <div class="social-icons">
+        <ul class="list-inline">
+          <li><a href="https://t.me/joinchat/AAAAAEVUb9C0qJru-hTw7A" target="_blank"><img src="assets/images/ico/telegram.png"  height="40" width="40" title= "Join the telegram group" alt="Join the telegram group"></a></li>
+          <li><a href="https://www.linkedin.com/in/tschmidt87/" target="_blank"><img src="assets/images/ico/linkedin.png"  height="40" width="40" title= "View my profile on LinkedIn" alt="View my profile on LinkedIn"></a></li>
+        </ul>
+      </div> <!-- /.social-icons -->
+		</div>
+
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+	</section><!-- End Home Section -->
+
+
+
+
+	<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a id="home_btn" href="#home">Home</a></li>
+						<li><a id="about_btn" href="#about">About</a></li>
+						<li><a id="resume_btn" href="#resume">Resume</a></li>
+						<li><a id="skills_btn" href="#skills">Skills</a></li>
+						<li><a id="tools_btn" href="#works">Tools</a></li>
+						<li><a id="blog_btn" href="#learn">Learn</a></li>
+						<li><a id="contact_btn" href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">About Me</h2>
+
+        <div class="row">
+
+          <div class="col-md-4 col-md-push-8">
+            <div class="biography">
+              <div class="myphoto">
+                <img src="assets/images/myphoto.jpg" alt="">
+              </div>
+              <ul>
+             <li><strong>Name:</strong> Tobias Schmidt</li>
+				<li><strong>Occupation:</strong> Adtech Manager </li>
+             <li><strong>Age/Year</strong> 1987 </li>
+             <li><strong>Location:</strong> Berlin </li>
+				<li><a id="linkedin_img" href="https://www.linkedin.com/in/tschmidt87/" target="_blank"><img src="assets/images/linkedin_nowhite.jpg" alt="Connect with me on LinkedIn" height="" width=""></a></li>
+				<li><a id="telegram_img" href="https://t.me/t0biS" target="_blank"><img src="assets/images/telegram_nowhite.jpg" alt="Start chat in Telegram" height="" width=""></a></li>
+				<li><h42> You can DM me here (Get <a href="https://telegram.org/" target="_blank"> Telegram</a>) </h42><br></li>
+              </ul>
+            </div>
+          </div> <!-- col-md-4 -->
+
+          <div class="col-md-8 col-md-pull-4">
+            <div class="short-info wow fadeInUp">
+              <h3>What I Do</h3>
+					<p>I track users! Including you :)<br>
+					Click below to see how many cookies i dropped on you (or your browser, really)<br>
+					You should see at least five cookies. 4 cookies set by Google Analytics and 2 that i created. </p>
+          <script>
+				document.cookie = "measurability.net";
+				document.cookie = "last_visited=today";
+				function alertCookie() {
+				alert(document.cookie);
+				}
+			</script>
+              <button onclick="alertCookie()">Show cookies</button>
+				<p><br>Let`s look at how easily those 2 cookies are created. If you inspect this page`s code, you should find the below JS snippet:</p>
+<pre><code class="language-javascript">
+document.cookie = "measurability.net";
+document.cookie = "last_visited=today";
+function alertCookie() {
+alert(document.cookie);
+}</code></pre>
+<p><br>In addition, let`s use GTM to track what you just did<br>First, we need to load the GTM container preview into your browser:<br>1) <a href="https://www.googletagmanager.com/start_preview/gtm?uiv2&id=GTM-553WWDS&gtm_auth=aZ8fPhd0mQfK_YWk0YD5Zg&gtm_preview=env-10&gtm_debug=x" target="_blank">Load GTM debugger in new tab</a><br>2) Now <a href="javascript:window.location.reload();">refresh the page</a><br>3) Click the button again and look for your action like shown below</a></p>
+<img src="assets/images/gtm.gif" alt="tracking you checking the cookies" height="" width="">
+			
+            </div>
+
+            <div class="short-info wow fadeInUp">
+              <h3>Everything else i do</h3>		 
+              <ul class="list-check">
+                <li>Review Tracking Setups</li>
+                <li>Optimize KPI Performance</li>
+                <li>Optimize Page Performance</li>
+                <li>Implement Tracking</li>
+                <li>Implement Measurements</li>
+                <li>Create KPI Dashboards </li>
+              </ul>
+            </div>
+
+            <div class="my-signature">
+            </div>
+
+            <!-- <div class="download-button">
+              <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+              <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-download"></i>download my cv</a>
+            </div>
+          </div> -->
+
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </section><!-- End About Section -->
+
+
+    <!-- Video Section -->
+    <section id="video" class="video-section">
+      <div class="tf-bg-overlay">
+
+        <div class="container">
+			
+          <div class="video-intro">
+			<h5>A video I was featured in, talking about one of my many favorite tools<br></h5>
+			<iframe width="820" height="440" src="https://www.youtube-nocookie.com/embed/PXXNQ4GQaBk?controls=0&&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <h2></h2>
+          </div>
+
+        </div>
+
+        <!--/.container-->
+      </div>
+      <!--/.overlay-->
+    </section>
+    <!-- /.Video Section -->
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Resume</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">2018-2019</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Adtech Manager</h3>
+                                            <span>audibene GmbH, Berlin, Germany</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>- Set-up advanced web tracking hacks leveraging on Google Tag Manager and Google Analytics, Adform, Salesforce etc.<br>
+- Supporting all the analytical needs of global marketing and product management teams, retrieving data and providing insights for supporting the marketing team <br>
+- Supporting integration of analytics tools (DOMO) with DWH and other BI and CRM systems</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">2016-2018</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Adtech Manager</h3>
+                                            <span>trivago GmbH, Duesseldorf, Germany</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Ad Tech / Marketing Technology <br>
+- Conceptualized, optimized & tested new internal tracking solutions.<br>
+ - Set up advanced web tracking hacks via Google Tag Manager & GA360.<br>
+ - Automated internal Campaign & Tracking setup process. <br>
+Marketing Tools<br>
+- Conceptualized & realized several internal Marketing tools as per demand by first building MVPs and then delegating & scaling them for more robust functionality. <br>
+- Some tools used to achieve these MVPs were MySQL, PHP, Heroku, Power Pivot, Power BI, VBA Macros, MS Access, etc.<br>
+Marketing Products<br>
+- Spearheaded the introduction & implementation of several external Marketing Products within the company. This included Looker, Datorama, Productsup, BrandVerity and Google Analytics 360 Suite.<br>
+Attribution & Data Modeling<br>
+- Tackled the issue of attribution and aggregation of internal & external Marketing data into one data lake, as well as matching and visualizing it for Marketers</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">2013-2016</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Ad Operations Specialist</h3>
+                                            <span>trivago GmbH, Duesseldorf, Germany</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Ad Operations<br>
+- Adserver Implementation & Maintenance (DCM)<br>
+- Tracking Implementation & Maintenance (GTM)<br>
+- Fraud Detection & Prevention<br>
+Data Analysis<br>
+- Performance-based optimization<br>
+- Creation of KPI Dashboards & Reports (Excel, MySQL, Tableau, PowerBI)<br>
+- Ad Testing (A/B, Multivariate)<br>
+Product Feeds<br>
+- Implemented & maintained Product (Hotel) Feeds for use in Retargeting campaigns<br>
+Adtech Support<br>
+- Supported Regional Marketing Managers with campaign setup, investigation of conversion discrepancies and troubleshooted tracking issues. Moreover, I was the go-to person for any technical questions for the Marketing Department</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">2012-2013</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Intern - SEO/SEM</h3>
+                                            <span>Monitise (formerly Markco Media Ltd), London, UK
+											</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>SEO Onsite<br>
+											SEO Offsite<br>
+											Copywriting<br>
+											Traffic Analysis with Google Analytics<br>
+											Reporting<br>
+											Landing Page Optimization<br>
+											SEM PPC Optimization<br></p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">2007-2011</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Universities</h3>
+                                            <span>University of Applied Sciences Cologne, Germany<br>
+											University of Applied Sciences Bielefeld, Germany<br>
+											TAMK - University of Applied Sciences Tampere, Finland</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>I studied International Management with a focus on Marketing. Courses ranged from Statistics to Microeconomics</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /.container -->
+    </section><!-- End Resume Section -->
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Skills</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Adtech</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Display Advt.</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" ><span>85%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Data Analysis</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>User Tracking</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span>90%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>CRO</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" ><span>65%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>KPI Optimization</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+
+        <div class="skill-chart text-center">
+          <h3>Technologies</h3>
+        </div>
+          
+        <div class="row more-skill text-center">
+          <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="55" data-color="e74c3c">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>HTML</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="35" data-color="2ecc71">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="85" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Tag Management</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="70" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>PageSpeed Optimization</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="60" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="65" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>LookML</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div><!-- /.container -->
+    </section><!-- End Skills Section -->
+
+
+    <!-- Works Section -->
+    <section id="works" class="works-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">My Tools</h2>
+
+        <ul class="list-inline" id="filter">
+            <li><a class="active" data-group="all">All</a></li>
+            <li><a data-group="gtm">GTM</a></li>
+            <li><a data-group="ga">GA</a></li>
+            <li><a data-group="looker">Looker</a></li>
+            <li><a data-group="powerbi">Power BI</a></li>
+        </ul>
+
+        <div class="row">
+          <div id="grid">
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "gtm"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a id="gtm_image" class="image-link" href="assets/images/works/gtm.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a id="gtm" href="https://tagmanager.google.com"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/gtm.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Google Tag Manager (GTM)</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "ga"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a id="GA_image" class="image-link" href="assets/images/works/ga.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a id="GA" href="http://analytics.google.com"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/ga.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Google Analytics (GA 360)</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "looker"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a id="looker_image" class="image-link" href="assets/images/works/looker.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a id="looker" href="https://looker.com/"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/looker.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Looker</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "powerbi"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a  id="powerbi_image"class="image-link" href="assets/images/works/powerbi.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a  id="powerbi"href="https://powerbi.microsoft.com/"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/powerbi.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Power BI</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /#grid -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Works Section -->
+
+
+    <!-- Facts Section -->
+    <section id="facts" class="facts-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="tt-overlay-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="count-wrap">
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-flask"></i>
+                  <h3 class="timer">6</h3>
+                  <p>Years of Experience</p>
+                </div>
+                <div class="col-sm-3 col-xs-6"> 
+                  <i class="fa fa-thumbs-up"></i>
+                  <h3 class="timer">12</h3>                
+                  <p>GTM/GA Accounts Managed</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-users"></i>
+                  <h3 class="timer">560</h3> 
+                  <p>Tracking Events Implemented</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-trophy"></i>
+                  <h3 class="timer">3</h3> 
+                  <p>Employer References</p>
+                </div>
+              </div><!-- /count-wrap -->
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div>
+    </section> <!-- End Facts Section -->
+
+
+    <!-- Blog Section -->
+    <section id="learn" class="latest-blog-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Learn</h2>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <article class="blog-post-wrapper">
+              <div class="figure">    
+                <div class="post-thumbnail">
+                  <a href="https://medium.com/@amplitudeHQ/the-high-cost-of-building-your-own-analytics-bdf9557b93c2" target= "_blank" rel=""><img src="https://cdn-images-1.medium.com/max/2560/1*gMOpsbwGG9tnUKKQ-dIxGA.jpeg" class="img-responsive " alt=""></a>
+                </div>
+                  <i class="fa fa-file-photo-o"></i>
+              </div><!-- /.figure -->
+              <header class="entry-header">
+                <div class="post-meta">
+                  <span class="the-category"> 
+                    <a href="#">gtm,</a> <a href="#">gtm</a>
+                  </span>
+                </div>
+                <h2 class="entry-title"><a href="https://medium.com/@amplitudeHQ/the-high-cost-of-building-your-own-analytics-bdf9557b93c2" target= "_blank" rel="">The high cost of building your own Analytics</a></h2>
+                <hr>
+                <div class="entry-meta">
+                  <ul class="list-inline">
+                    <li>
+                      <span class="the-author">
+                        <a href="#">Amplitude</a> 
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-time">
+                        <a href="#">29 Dec 2016</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-share">
+                        <a href="#" title="share">30</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-comments">
+                        <a href="#" title="">05</a>
+                      </span>
+                    </li>
+                  </ul>
+                </div><!-- .entry-meta -->
+              </header><!-- .entry-header -->
+            </article>
+          </div><!-- /.col-sm-4 -->
+          <div class="col-sm-4">
+            <article class="blog-post-wrapper">
+              <div class="figure">    
+                <div class="post-thumbnail">
+                  <a href="https://medium.com/@jev/introduction-to-jquery-for-marketers-bc5a43537e23" target="_blank" rel=""><img src="https://cdn-images-1.medium.com/max/2560/1*qADNI7_KIIYeLU5Np-GOVw.jpeg" class="img-responsive " alt=""></a>
+                </div>
+                  <i class="fa fa-file-video-o"></i>
+              </div><!-- /.figure -->
+              <header class="entry-header">
+                <div class="post-meta">
+                  <span class="the-category"> 
+                    <a href="#">jquery,</a> <a href="#">jquery</a>
+                  </span>
+                </div>
+                <h2 class="entry-title"><a href="https://medium.com/@jev/introduction-to-jquery-for-marketers-bc5a43537e23" target="_blank" rel="">Introduction to JQuery for Marketers</a></h2>
+                <hr>
+                <div class="entry-meta">
+                  <ul class="list-inline">
+                    <li>
+                      <span class="the-author">
+                        <a href="#">Jevgenijs Kazanins</a> 
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-time">
+                        <a href="#">14 Oct 2014</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-share">
+                        <a href="#" title="share">30</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-comments">
+                        <a href="#" title="">05</a>
+                      </span>
+                    </li>
+                  </ul>
+                </div><!-- .entry-meta -->
+              </header><!-- .entry-header -->
+            </article>
+          </div><!-- /.col-sm-4 -->
+          <div class="col-sm-4">
+            <article class="blog-post-wrapper">
+              <div class="figure">    
+                <div class="post-thumbnail">
+                  <a href="http://cutroni.com/blog/2014/02/12/advanced-content-tracking-with-universal-analytics/" target="_blank" rel=""><img src="http://cutroni.com/blog/wp-content/uploads/2014-02-10_10-54-29.png" class="img-responsive " alt=""></a>
+                </div>
+                  <i class="fa fa-quote-left"></i>
+              </div><!-- /.figure -->
+              <header class="entry-header">
+                <div class="post-meta">
+                  <span class="the-category"> 
+                    <a href="#">gtm,</a> <a href="#">gtm</a>
+                  </span>
+                </div>
+                <h2 class="entry-title"><a href="http://cutroni.com/blog/2014/02/12/advanced-content-tracking-with-universal-analytics/" target="_blank" rel="">Advanced Content Tracking with Universal Analytics</a></h2>
+                <hr>
+                <div class="entry-meta">
+                  <ul class="list-inline">
+                    <li>
+                      <span class="the-author">
+                        <a href="#">Justin Cutroni</a> 
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-time">
+                        <a href="#">12 Feb 2014</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-share">
+                        <a href="#" title="share">168</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-comments">
+                        <a href="#" title="">05</a>
+                      </span>
+                    </li>
+                  </ul>
+                </div><!-- .entry-meta -->
+              </header><!-- .entry-header -->
+            </article>
+          </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+        <div class="blog-more text-center">
+          <a href="#" class="btn btn-primary">View More</a>
+        </div>
+        
+      </div><!-- /.container -->
+    </section><!-- End Blog Section -->
+
+
+    <!-- Hire Section -->
+    <section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="hire-section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>I'm available for freelance projects</h2>
+              <a id="hireme_telegram" href="https://t.me/t0biS" target="_blank" class="btn btn-default">Contact me for a Project</a>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.hire-section-bg -->
+    </section><!-- End Hire Section -->
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Contact me</h2>
+
+        <div class="row">
+          
+
+          <div class="col-md-6">
+            <div class="row center-xs">
+              <div class="col-sm-6">
+               <a id="telegram_img_footer" href="https://t.me/t0biS" target="_blank"><img src="assets/images/telegram.jpg" alt="Start chat in Telegram" height="" width=""></a>
+			  <h42> You can direct message me here (Get <a href="https://telegram.org/" target="_blank"> Telegram</a>) </h42><br>   
+              </div>
+
+              <div class="col-sm-6">
+               <a id="linkedin_img_footer" href="https://www.linkedin.com/in/tschmidt87/" target="_blank"><img src="assets/images/linkedin.jpg" alt="Connect with me on LinkedIn" height="" width=""></a>
+			  <h42> You can add or direct message me here</h42><br> 
+              </div>
+            </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="location-map">
+                <div id="mapCanvas" class="map"></div>
+              </div>
+            </div>
+          </div>
+          </div>
+				<div class="col-sm-6">
+			  <h42> Unfortunately i cannot share my e-mail address publicly since spambots <br>pick these up daily. <br>You can ask for my email in a direct message either via Telegram or LinkedIn<br>and i`ll share it with you privately.</h42><br> 
+              </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Contact Section -->
+
+
+	<!-- Footer Section -->
+    <footer class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright text-center">
+              <p>&copy; Measurability.net <br>
+			  Resources: <br>
+			  <a href="http://getbootstrap.com">Bootstrap v3.3.2</a><br>
+			  <a href="http://daneden.me/animate">Animate.css</a><br>
+			  <a href="https://fontawesome.com/license">Font Awesome 4.2.0 by @davegandy</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer><!-- End Footer Section -->
+
+
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.countTo.js"></script>
+  <script src="assets/js/jquery.inview.min.js"></script> 
+  <script src="assets/js/jquery.easypiechart.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+</body>
+</html>
